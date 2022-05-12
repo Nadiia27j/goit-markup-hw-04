@@ -419,17 +419,25 @@ ul {
 
 .social-networks {
   display: flex;
- 
+  justify-content: center;
+  align-items: center;
+
+  padding-left: 0px;
+
   
 }
 
 
 
+.item-networks:not(:last-child) {
+  margin-right: 10px;
+}
 
-.networks {
+.instagram {
   display: flex;
   justify-content: center;
   align-items: center;
+
 
   width: 44px;
   height: 44px;
@@ -437,8 +445,14 @@ ul {
   border-radius: 50px 50px;
 }
 
+.networks:hover,
+.networks:focus {
+  background-color: rgba(33, 150, 243, 1);
+  border-radius: 50px 50px;
 
-
+  width: 44px;
+  height: 44px;
+}
 
 
 

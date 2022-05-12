@@ -135,8 +135,10 @@ ul {
 
 .contacts {
   display: flex;
+  align-items: center;
+  align-content: center;
 
-  
+
   font-weight: 500;
 
   margin-left: auto;
@@ -191,16 +193,19 @@ ul {
 .logo-benefits {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 
   
  background-color: rgba(245, 244, 250, 1);
+ border-radius: 4px;
  width: 270px;
  height: 120px;
 
  margin-bottom: 30px;
 
+ padding: 25px 100px;
 }
+
 
 
 
@@ -406,9 +411,82 @@ ul {
   color: var(--secondary-text-color);
   line-height: 1.18;
   font-weight: 400;
-  text-align: center;
+  margin-bottom: 16px;
+
+  text-align: center; 
+}
+
+
+.social-networks {
+  display: flex;
+ 
   
 }
+
+
+
+
+.networks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: rgba(33, 150, 243, 1);
+  border-radius: 50px 50px;
+}
+
+
+
+
+
+
+
+
+
+/* секція постійні клієнти */
+
+
+.section-clients {
+  display: flex;
+  padding-bottom: 94px;
+ padding-top: 94px;
+}
+
+.team-clients {
+  display: flex;
+  justify-content: center;
+  
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.clients-container {
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+ 
+}
+
+
+.item-clients:not(:last-child) {
+  margin-right: 30px;
+
+}
+
+.clients-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 32px;
+
+}
+
 
 /* портфоліо */
 

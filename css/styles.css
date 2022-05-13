@@ -703,6 +703,28 @@ ul {
 
 
 /* підвал */
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+
+  width: 1200px;
+  
+ padding-left: 15px;
+ padding-right: 15px;
+
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+
+
+.footer-address {
+  margin-right: 70px;
+}
+
+
 .footer {
   background-color: var(--footer-bg-color);
   padding-top: 60px;
@@ -756,12 +778,16 @@ ul {
 }
 
 .footer-networks {
+ 
    outline: 1px solid red;   
 }
 
 
 .team-footer {
   display: flex;
+  margin: 0px;
+  padding-left: 0px;
+  
 }
 
 
@@ -772,10 +798,39 @@ ul {
   font-style: normal;
   line-height: 1.14;
   font-weight: 700;
+
+  margin-bottom: 20px;
   
 }
 
 
 .icon-footer {
   fill: #FFFFFF;
+}
+
+
+
+.social-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+
+.link-social{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-radius: 50%;
+  
+}
+
+.link-social:hover ,
+.link-social:focus {
+  background-color: rgba(33, 150, 243, 1);
+ 
 }

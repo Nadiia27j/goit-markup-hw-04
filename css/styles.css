@@ -687,3 +687,10 @@ ul {
 .link-footer:focus {
   color: var(--bg-buttons-color-hover);
 }
+
+
+.title-footer {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  
+}
